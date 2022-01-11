@@ -45,7 +45,14 @@ footer {
     justify-content: space-around;
 }
 
+/* nav ul li {
+    display: flex;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+} */
+
 a {
+    margin: 10px;
     text-decoration: none;
     font-weight: 600;
     color: black;
