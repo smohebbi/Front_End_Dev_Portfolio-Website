@@ -1,0 +1,58 @@
+html, body {
+    height: 100%;
+}
+
+html {    
+    display: block;
+}
+
+body {
+    display: flex; 
+    max-width: 900px;
+    flex-direction: column;
+    margin:0 auto;
+    color: black;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    /* flex-direction: row; */
+    /* align-content: space-between; */
+}
+
+nav {
+   margin-left: auto;
+}
+
+.about-me {
+    display: flex;
+    align-items: center;
+}
+
+#about-me-photo {
+    width: 300px;
+    border-radius: 5%;
+}
+
+footer {
+    margin-top: auto;
+    text-align: center;
+}
+
+#skills-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    text-decoration: none;
+    font-weight: 600;
+    color: black;
+    /* color: var(--font-color); */
+} 
+
+/* a:-webkit-any-link {
+    color: black;
+    cursor: pointer;
+} */
