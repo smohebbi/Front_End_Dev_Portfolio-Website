@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'OpenSans';
+    src: url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf)format('truetype');
+}
+
 html, body {
     height: 100%;
 }
@@ -12,6 +17,7 @@ body {
     flex-direction: column;
     margin:0 auto;
     color: black;
+    font-family: 'OpenSans', 'Times New Roman', Times;
 }
 
 header {
@@ -59,7 +65,33 @@ a {
     /* color: var(--font-color); */
 } 
 
+#img1, #img2, #img3 {
+    width: 400px;
+    height: 400;
+    display: none;
+    /* none; */
+    /* visibility: hidden; */
+}
+
+
 /* a:-webkit-any-link {
     color: black;
     cursor: pointer;
 } */
+
+ul li {
+    color: brown;
+    font-size: large;
+}
+
+@media only screen and (max-width: 768px) {
+    body {
+        font-family: 'Space Mono', monospace, sans-serif;
+        font-size: small;
+    }
+
+    #about-me-photo, #img1, #img2, #img3 {
+        width: 200px;
+        height: auto;
+    }
+}

@@ -3,12 +3,11 @@
     <head>
         <title>My Portfolio</title>
         <link rel="stylesheet" href="./style.css">
-        <link rel="stylesheet" href="./script.js">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap" rel="stylesheet">
     </head>
-    <body>
-        <script src="./script.js" async></script>
 
+    <body>
         <header>
             <h1 id="logo">Siavash Mohebbi</h1>
             
@@ -31,19 +30,29 @@
                     <p>about me about me about me about me about me about me about me about me about me about me about me </p>
                     <p>about me about me about me about me about me about me about me about me about me about me about me </p>
                     <p>about me about me about me about me about me about me about me about me about me about me about me </p>
+                    <p id="funFact">Fun fact: you have clicked 0 times.</p>
                 </div> 
 
-                <img id="about-me-photo" src="./Imgaes/my_picture.png" alt="Photo">
+                <img id="about-me-photo" class="image" src="./Imgaes/my_picture.png" alt="Photo">
             </div>
 
             <div id='projects' class="main projects">
             <h2>Projects</h2>
             
             <ul>
-                <li>item 1</li>
-                <li>item 2</li>
-                <li>item 3</li>
-            </ul>
+                <li>
+                    <div class="item">item 1</div>
+                    <img id='img1' class="image" src="./Imgaes/item1.gif" alt="design">
+                </li>
+                <li>
+                    <div class="item">item 2</div>
+                    <img id='img2' class="image" src="./Imgaes/item2.jpeg" alt="design">
+                </li>
+                <li>
+                    <div class="item">item 3</div>
+                    <img id='img3' class="image" src="./Imgaes/item3.jpg" alt="design">
+                </li>
+        </ul>
             </div>
 
             <div id='skills' class="main skills">
@@ -66,7 +75,9 @@
         </main>
 
         <footer>
-            siavash.mohebbi@gmail.com
+            Made in Berlin
         </footer>
+
+        <script src="./script.js"></script>
     </body>
 </html>
