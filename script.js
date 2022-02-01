@@ -16,5 +16,5 @@ const body = document.body;
 let numOfClicks = 0;
 body.addEventListener('click', () => {  
     numOfClicks += 1;
-    document.getElementById('funFact').innerHTML = `Fun fact: you have clicked ${numOfClicks} times.`;
+    document.getElementById('funFact').innerHTML = `<span style="color: tomato;">Fun fact:</span> you have clicked <span style="color: tomato;">${numOfClicks}</span> times.`;
 });
