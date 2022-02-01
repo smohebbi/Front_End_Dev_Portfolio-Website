@@ -1,0 +1,6 @@
+#education {
+    display: grid;
+    grid-template-columns: 1fr 7fr;
+    width: auto;
+    column-gap: 20px;
+}

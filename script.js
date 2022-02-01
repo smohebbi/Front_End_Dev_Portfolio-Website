@@ -10,8 +10,7 @@ for (const item in items) {
     }         
 }
 
-//*****************************
-//fun fact
+//**************fun fact***************
 const source = document.getElementById('funFact').innerHTML;
 const body = document.body;
 let numOfClicks = 0;
