@@ -110,6 +110,11 @@ ul li {
     width: 30px;
 }
 
+.item h3:hover {
+    color: blue;
+    cursor: pointer;
+}
+
 .sub-item {
     display: none;
 }
