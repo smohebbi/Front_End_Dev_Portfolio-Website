@@ -32,7 +32,7 @@ class Contact extends ReactComponent {
         const contactinfo = (
             <ul>
                 <li>siavash.mohebbi@gmail.com</li>
-                <li>+4917657832858</li>
+                <li></li>
             </ul>
         );
 

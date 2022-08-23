@@ -70,8 +70,8 @@ a {
     width: 400px;
     height: 400;
     /* display: none; */
-    padding-top: 15px;
-    padding-bottom: 15px;
+    /* padding-top: 15px;
+    padding-bottom: 15px; */
     /* none; */
     /* visibility: hidden; */
 }
@@ -115,5 +115,15 @@ ul li {
 }
 
 .sub-item a {
+    color: dodgerblue;
+}
+
+#contactsInfo img {
+    width: 20px;
+    height: auto;
+    margin-right: 20px;
+}
+
+#contactsInfo a {
     color: dodgerblue;
 }
