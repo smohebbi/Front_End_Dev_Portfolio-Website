@@ -3,19 +3,20 @@
     src: url(./fonts/OpenSans-VariableFont_wdth\,wght.ttf)format('truetype');
 }
 
-html, body {
+html,
+body {
     height: 100%;
 }
 
-html {    
+html {
     display: block;
 }
 
 body {
-    display: flex; 
+    display: flex;
     max-width: 900px;
     flex-direction: column;
-    margin:0 auto;
+    margin: 0 auto;
     color: black;
     font-family: 'OpenSans', 'Times New Roman', Times;
 }
@@ -28,7 +29,7 @@ header {
 }
 
 nav {
-   margin-left: auto;
+    margin-left: auto;
 }
 
 .about-me {
@@ -63,12 +64,14 @@ a {
     font-weight: 600;
     color: black;
     /* color: var(--font-color); */
-} 
+}
 
-#img1, #img2, #img3 {
+.image {
     width: 400px;
     height: 400;
-    display: none;
+    /* display: none; */
+    padding-top: 15px;
+    padding-bottom: 15px;
     /* none; */
     /* visibility: hidden; */
 }
@@ -80,7 +83,7 @@ a {
 } */
 
 ul li {
-    color: brown;
+    /* color: brown; */
     font-size: large;
 }
 
@@ -90,8 +93,27 @@ ul li {
         font-size: small;
     }
 
-    #about-me-photo, #img1, #img2, #img3 {
+    #about-me-photo,
+    .image {
         width: 200px;
         height: auto;
     }
+}
+
+.about-me-par {
+    text-align: justify;
+    padding-right: 20px;
+}
+
+.item img {
+    height: auto;
+    width: 30px;
+}
+
+.sub-item {
+    display: none;
+}
+
+.sub-item a {
+    color: dodgerblue;
 }

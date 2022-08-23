@@ -1,84 +1,92 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <title>My Portfolio</title>
-        <link rel="stylesheet" href="./style.css">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
-        <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap" rel="stylesheet">
-    </head>
 
-    <body>
-        <header>
-            <h1 id="logo">Siavash Mohebbi</h1>
-            
-            <nav>
-                <ul>
-                    <a href="#aboutMe">About Me</a>
-                    <a href="#projects">Projects</a>
-                    <a href="#skills">Skills</a>
-                    <a href="./education.html">Education</a>
-                    <a href="./contact.html">Contact</a>
-                </ul>
-            </nav>
-        </header>
+<head>
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet"
+        href="https://use.fontawesome.com/releases/v5.0.8/css/all.css">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap"
+        rel="stylesheet">
+</head>
 
-        <main>
-            <div class="main about-me" id="aboutMe">
-                <div id="about-me-text">
-                    <h2>About Me</h2>
-                    <p>You can find my CV<a href="./CV.pdf" style="color:dodgerblue" target="_blank" download>here</a>.</p>
-                    <p>about me about me about me about me about me about me about me about me about me about me about me </p>
-                    <p>about me about me about me about me about me about me about me about me about me about me about me </p>
-                    <p>about me about me about me about me about me about me about me about me about me about me about me </p>
-                    <p>about me about me about me about me about me about me about me about me about me about me about me </p>
-                    <p id="funFact"><span style="color: tomato">Fun fact:</span> you have clicked <span style="color: tomato;">0</span> times.</p>
-                </div> 
+<body>
+    <header>
+        <h1 id="logo">Siavash Mohebbi</h1>
 
-                <img id="about-me-photo" class="image" src="./Imgaes/my_picture.png" alt="Photo">
-            </div>
-
-            <div id='projects' class="main projects">
-            <h2>Projects</h2>
-            
+        <nav>
             <ul>
-                <li>
-                    <div class="item">item 1</div>
-                    <img id='img1' class="image" src="./Imgaes/item1.gif" alt="design">
-                </li>
-                <li>
-                    <div class="item">item 2</div>
-                    <img id='img2' class="image" src="./Imgaes/item2.jpeg" alt="design">
-                </li>
-                <li>
-                    <div class="item">item 3</div>
-                    <img id='img3' class="image" src="./Imgaes/item3.jpg" alt="design">
-                </li>
-        </ul>
+                <a href="#aboutMe">About Me</a>
+                <a href="./projects.html">Projects</a>
+                <a href="#skills">Skills</a>
+                <a href="./education.html">Education</a>
+                <a href="./contact.html">Contact</a>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="main about-me" id="aboutMe">
+            <div id="about-me-text">
+                <h2>About Me</h2>
+                <p>Welcome to my web page.</p>
+                <p class="about-me-par">I recently graduated with a master's degree in Computer
+                    science . I have a strong
+                    theoretical background in Design of Algorithms and graph
+                    theory. I have strong interpersonal skills in both academic
+                    and workplace environments developed during work as a
+                    Research Assistant at university and two years of working as
+                    an SAP ABAP developer in an industrial agile environment.
+                </p>
+
+                <p class="about-me-par">Currently, I am developing myself in Web Development while
+                    working on my own projects. After building strong
+                    foundations in
+                    HTML, CSS and JavaScript, I went onto React and Redux.</p>
+
+                <p class="about-me-par">I am passionate about Frontend Web development and looking to
+                    pursue a career in this field in the near future.</p>
+
+                <p id="funFact"><span style="color: dodgerblue">Fun fact:</span>
+                    you have clicked <span style="color: dodgerblue;">0</span>
+                    times.</p>
             </div>
 
-            <div id='skills' class="main skills">
-                <h2>Skills</h2>
+            <img id="about-me-photo" class="image" src="./Imgaes/my_picture.png"
+                alt="Photo">
+        </div>
 
-                <div id="skills-container">
-                    <i class="fab fa-js"></i>
-                    <i class="fab fa-html5"></i>
-                    <i class="fab fa-react"></i>
-                    <i class="fab fa-git"></i>
-                    <i class="fab fa-npm"></i>
-                    <i class="fab fa-node"></i>
-                    <i class="fab fa-github"></i>
-                </div>
+        <div>
+            <h2>Resume</h2>
+            <p>You can find my CV<a href="./CV.pdf" style="color:dodgerblue"
+                target="_blank" download>here</a>.</p>
+        </div>
+
+        <div id='skills' class="main skills">
+            <h2>Skills</h2>
+
+            <div id="skills-container">
+                <i class="fab fa-js"></i>
+                <i class="fab fa-html5"></i>
+                <i class="fab fa-react"></i>
+                <i class="fab fa-git"></i>
+                <i class="fab fa-npm"></i>
+                <i class="fab fa-node"></i>
+                <i class="fab fa-github"></i>
             </div>
+        </div>
 
-            <div class="main">
+        <div class="main">
 
-            </div>
-        </main>
+        </div>
+    </main>
 
-        <footer>
-            Made in Berlin
-        </footer>
+    <footer>
+        Made in Berlin
+    </footer>
 
-        <script src="./script.js"></script>
-    </body>
+    <script src="./script.js"></script>
+</body>
+
 </html>

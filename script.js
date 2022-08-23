@@ -1,3 +1,5 @@
+//**************project items********
+
 let items = document.getElementsByClassName('item');
 for (const item in items) {
     items[item].onclick = () => {
@@ -16,5 +18,6 @@ const body = document.body;
 let numOfClicks = 0;
 body.addEventListener('click', () => {  
     numOfClicks += 1;
-    document.getElementById('funFact').innerHTML = `<span style="color: tomato;">Fun fact:</span> you have clicked <span style="color: tomato;">${numOfClicks}</span> times.`;
+    document.e
+    getElementById('funFact').innerHTML = `<span style="color: tomato;">Fun fact:</span> you have clicked <span style="color: tomato;">${numOfClicks}</span> times.`;
 });
