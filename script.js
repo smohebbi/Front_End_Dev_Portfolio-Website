@@ -14,7 +14,7 @@ for (const item in items) {
 
 //**************fun fact***************
 const source = document.getElementById('funFact').innerHTML;
-const body = document.body;
+const body = document.body; 
 let numOfClicks = 0;
 body.addEventListener('click', () => {  
     numOfClicks += 1;
